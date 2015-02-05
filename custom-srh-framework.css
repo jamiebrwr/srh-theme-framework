@@ -1,0 +1,56 @@
+/*-----------------------------------------------------------------------------------*/
+/* Social Sharing */
+/*-----------------------------------------------------------------------------------*/
+.social_sharing_link_wrapper{
+	/* float: right; */
+	padding: 2em;
+	margin: 2em 2em 2em 35%;
+	max-width: 100%;
+}
+.social_sharing_link_wrapper li {
+	float:left;
+	background: url('images/bg-social-icons.png');
+	width:35px;
+	height:35px;
+	text-indent: -9999px;
+	margin-right: 1em;
+	list-style: none;
+}
+.social_sharing_link_wrapper li a {
+	display: block;
+	height: 2.063em;
+}
+.social_sharing_link_wrapper li.facebook {
+	background-position: 0px 0px;
+}
+.social_sharing_link_wrapper li.facebook:hover {
+		background-position: 0px -43.5px;
+	}
+
+.social_sharing_link_wrapper li.twitter {
+	background-position: -52px 0px;
+}
+.social_sharing_link_wrapper li.twitter:hover {
+		background-position: -52px -43.5px;
+	}
+
+.social_sharing_link_wrapper li.google {
+	background-position: 141px 0px;
+}
+.social_sharing_link_wrapper li.google:hover {
+		background-position: 141px -43.5px;
+	}
+
+.social_sharing_link_wrapper li.pinterest {
+	background-position: -157px 0px;
+}
+.social_sharing_link_wrapper li.pinterest:hover {
+		background-position: -157px -43.5px;
+	}
+
+.social_sharing_link_wrapper li.linkedin {
+	background-position: -211px 0px;
+}
+.social_sharing_link_wrapper li.linkedin:hover {
+		background-position: -211px -43.5px;
+	}
